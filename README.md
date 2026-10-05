@@ -1,4 +1,4 @@
-# The Backrooms: Caleb's Shift
+# The Backrooms: Jordan's Endless Shift
 
 A small browser survival-horror game built for desktop and mobile.
 
