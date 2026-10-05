@@ -326,7 +326,7 @@ const LOADOUT_CUSTOM_ICON_OPTIONS = [
     { id: 'freeCarry', name: 'Free Carry', src: 'assets/ui/icons/loadouts/FreeCarryIcon.svg' },
     { id: 'utility', name: 'Utility Kit', src: 'assets/ui/icons/loadouts/UtilityKitIcon.svg' },
     { id: 'dash', name: 'Dash', src: 'assets/ui/icons/market/DashIcon.svg' },
-    { id: 'gameMark', name: "Caleb's Shift", src: 'assets/icon.svg' },
+    { id: 'gameMark', name: "Jordan's Endless Shift", src: 'assets/icon.svg' },
     { id: 'dailyShift', name: 'Today’s Shift', src: 'assets/ui/icons/daily-shift.svg' },
     { id: 'campaignMode', name: 'Campaign Mode', src: 'assets/ui/icons/modes/CampaignModeIcon.svg' },
     { id: 'endlessMode', name: 'Endless Mode', src: 'assets/ui/icons/modes/EndlessModeIcon.svg' },
@@ -1261,7 +1261,7 @@ function saveData() {
 
 function exportSave() {
     const payload = {
-        game: "The Backrooms: Caleb's Shift",
+        game: "The Backrooms: Jordan's Endless Shift",
         gameVersion: GAME_VERSION,
         schemaVersion: SAVE_SCHEMA_VERSION,
         exportedAt: new Date().toISOString(),
@@ -10433,7 +10433,7 @@ function reportFrameError(error, phase) {
     const signature = `${phase}: ${message}`;
     const now = performance.now();
     if (signature !== lastFrameErrorSignature || now - lastFrameErrorAt > 2000) {
-        console.error(`[Caleb's Shift] ${phase} frame recovered:`, error);
+        console.error(`[Jordan's Endless Shift] ${phase} frame recovered:`, error);
         lastFrameErrorSignature = signature;
         lastFrameErrorAt = now;
     }
